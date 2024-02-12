@@ -1,0 +1,671 @@
+body{
+    margin: 0px;
+    padding: 0rem;
+    height: 100vh;
+    width: 100vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(6, 2, 43);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    width:100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+#appu-image{
+    border-radius: 50%;
+}
+
+.photo{
+    margin: 2.3rem 7rem;
+}
+.photo2{
+    height: 35rem;
+}
+/* song side */
+
+
+main .song-side{
+    width: 70vw;
+    height: 79vh;
+    background-color: rgb(6, 2, 43);
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+main .song-side::-webkit-scrollbar{
+    display: none;
+}
+
+
+/* sub-menu-songs */
+
+.sub-menu-songs{
+    height:25rem;
+    width:100%;
+    color:white;
+    margin-left: 3rem;
+    box-sizing: border-box;
+}
+.sub-menu-songs-header{
+    display: flex;
+    margin: 1rem 0rem .5rem 0rem;
+}
+
+.sub-menu-songs-plalist{
+    display: flex;
+    height: 20rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+.sub-menu-songs-plalist1{
+    height: 20rem;
+    width: 50%;
+    box-sizing: border-box;
+    margin-left: 1rem;
+    overflow-y: scroll;
+}
+.sub-menu-songs-plalist1::-webkit-scrollbar{
+    display: none;
+}
+.sub-menu-song1{
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: .5rem 0rem;
+}
+.sub-no{
+    font-size: x-small;
+    margin-right: .5rem;
+}
+.sub-img img{
+    height: 5rem;
+    width:5rem;
+    box-shadow: 0rem 0rem 1rem .4rem rgb(13, 13, 94);
+    margin-left: 1rem;
+}
+.sub-info{
+    height: 5rem;
+    width:60%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.sub-song-name{
+    font-size: x-small;
+}
+.sub-badshah{
+    font-size: xx-small;
+    color: grey;
+}
+/* latest relesed */
+
+.latest-relesed{
+    height: 40rem;
+    width: 75%;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    color: white;
+    box-sizing: border-box;
+}
+
+.latest-relesed-heading{
+    width: 100%;
+    height: 4rem;
+}
+
+.latest-relesed-album{
+    width: 96%;
+    height: 34rem;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.latest-song{
+    display: flex;
+    width:50%;
+    height:15rem;
+    margin: .5rem 0px;
+}
+.song-image img{
+    height:13rem;
+    width: 13rem;
+}
+.song-content{
+    height:13rem;
+    width: 20rem;
+    margin-left: 1.5rem;
+}
+.singer{
+    font-size: x-small;
+    color: grey;
+}
+.checkbox-list{
+    height:13rem;
+    width: 15rem;
+    margin-left: 1.5rem;
+}
+
+.dropdown-icon{
+    color:white
+}
+
+
+/* popular artist */
+
+
+.popular-artist{
+    height: 23rem;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    color: white;
+    margin-left: 3rem;
+    box-sizing: border-box;
+}
+.popular-artist-list{
+    height: 17rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top:2rem ;
+    overflow-x: scroll;
+}
+
+.popular-artist-list::-webkit-scrollbar{
+    display: none;
+}
+.popular-artist-profile{
+    height: 15rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column; 
+    margin: 0rem .3rem;
+}
+.popular-artist-image1{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.photo2:hover{
+        opacity: .50;
+}
+.play-button{
+    position: relative;
+    left: 4.5rem;
+    bottom:5rem;
+}
+.photo1{
+    background-image: url(images/badshah.jpg);
+    background-size: cover;
+}
+.photo9{
+    background-image: url(images/alka.jpg);
+    background-size: cover;
+}
+.photo3{
+    background-image: url(images/arjit.webp);
+    background-size: cover;
+}
+.photo4{
+    background-image: url(images/dhwani.jpg);
+    background-size: cover;
+}
+.photo5{
+    background-image: url(images/guru-randhawa.webp);
+    background-size: cover;
+}
+.photo6{
+    background-image: url(images/hardy-sandhu.jpeg);
+    background-size: cover;
+}
+.photo8{
+    background-image: url(images/hardy-sandhu.jpeg);
+    background-size: cover;
+}
+.photo7{
+    background-image: url(images/Neha-Kakkar.jpg);
+    background-size: cover;
+}
+.photo2{
+    background-image: url(images/shreya-ghoshal.jpg);
+    background-size: cover;
+    transition: all .3s ease-in-out
+}
+.photo10{
+    background-image: url(images/tulsi.webp);
+    background-size: cover;
+}
+
+.popular-artist-name{
+    height: 4rem;
+    font-size:smaller;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* stitions */
+
+.stations{
+    height: 11rem;
+    width:95%;
+    display: flex;
+    margin-left: 3rem;
+    box-sizing: border-box;
+    background-color: rgb(16, 16, 80);
+}
+.station-icon{
+    height: 11rem;
+    width:15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.station-icon div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.station-goal{
+    height: 11rem;
+    width:85%;
+    display: flex;
+    align-items: center;
+}
+.stations-image img{
+    height: 8rem;
+    width: 8rem;
+    margin: .5rem;
+    border-radius: 50%;
+    opacity: 0.35;
+}
+.first-box{
+    position: relative;
+    height:6rem;
+    width: 95% ;
+    background-color:yellow ;
+}
+.second-box{
+    position: relative;
+    height:8rem;
+    width: 85% ;
+    background-color:orange ;
+}
+.third-box{
+    position: relative;
+    height:9rem;
+    width: 75% ;
+    background-color:orangered ;
+}
+.music-icon{
+    height: 4rem;
+    width:4rem;
+    color:white;
+}
+/* party-electronic-road trip */
+
+.party-container{
+    height:17rem;
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.party{
+    height: 100%;
+    flex-grow: 1;
+    overflow: hidden;
+    margin: 0rem 1rem;
+}
+.party img{
+    height: 100%;
+    flex-grow: 1;
+    opacity: .45;
+    transition: all .3s ease-in-out;
+}
+.party img:hover{
+    transform: scale(1.2);
+}
+.electronic{
+    height: 100%;
+    flex-grow: 1;
+    opacity: .45;
+    margin: 0rem 1rem;
+    overflow: hidden;
+}
+.electronic img{
+    height: 100%;
+    flex-grow: 1;
+    opacity: .45;
+    transition: all .3s ease-in-out;
+}
+.electronic img:hover{
+    transform: scale(1.2);
+}
+.road-trip{
+    height: 100%;
+    flex-grow: 1;
+    margin: 0rem 1rem;
+    overflow: hidden;
+}
+.road-trip img{
+    height: 100%;
+    flex-grow: 1;
+    opacity: .45;
+    transition: all .3s ease-in-out;
+}
+.road-trip img:hover{
+    transform: scale(1.2);
+}
+
+/* latest english */
+
+.latest-english{
+    height: 17rem;
+    width: 100%;
+    color: white;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.latest-english-album{
+    height: 13rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.latest-english-song{
+    height: 12rem;
+    width:9rem;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.latest-english-image1{
+    height: 9rem;
+    width:9rem;
+    background-image: url(images/daspacito.png);
+    background-size: cover;
+}
+.latest-english-image2{
+    height: 9rem;
+    width:9rem;
+    background-image: url(images/english-song1.jpg);
+    background-size: cover;
+}
+.latest-english-image3{
+    height: 9rem;
+    width:9rem;
+    background-image: url(images/english-song2.jpeg);
+    background-size: cover;
+}
+.latest-english-image4{
+    height: 9rem;
+    width:9rem;
+    background-image: url(images/english-song3.jpeg);
+    background-size: cover;
+}
+.latest-english-image5{
+    height: 9rem;
+    width:9rem;
+    background-image: url(images/consert.jpeg);
+    background-size: cover;
+}
+.latest-english-image6{
+    height: 9rem;
+    width:9rem;
+    background-image: url(images/barish.jpg);
+    background-size: cover;
+}
+
+.latest-english-name{
+    font-size: xx-small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.latest-english-name span{
+    font-size: xx-small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:grey;
+}
+
+/* menu side */
+
+.shadow{
+    box-shadow:.4rem .4rem .4rem .4rem grey;
+}
+main .menu-side{
+    width: 30vw;
+    height: 79vh;
+    background-color: rgb(6, 2, 43);
+    box-sizing: border-box;
+}
+ 
+.menu-side .queue{
+    color:beige;
+    font-weight:bold;
+    display: flex;
+    margin-top:1.5rem;
+    margin-bottom: 2rem;
+}
+
+.queue3{
+    color:aqua;
+    letter-spacing: .06rem;
+}
+
+main .playlist .song1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+.playlist{
+    height: 40rem;
+    margin:0rem 1rem;
+    color:bisque;
+    font-weight: none;
+    overflow-y:scroll;
+}
+.playlist::-webkit-scrollbar{
+    display: none;
+}
+.badsha{
+    font-size:xx-small;
+    color:rgb(114, 97, 97)
+}
+.no{
+    margin-right: .5rem;
+}
+.song-name{
+    margin-left: .5rem;
+    width:25rem;
+}
+.pause{
+    margin-right: .3rem;
+}
+
+/* master play */
+
+.master-side{
+    height:5rem;
+    width: 100%;
+    background-color: rgb(49, 45, 45);
+    display: flex;
+    color: aliceblue;
+}
+.master1{
+    width: 20%;
+    height:5rem ;
+    display: flex;
+    margin-left: 3rem;
+}
+.master2{
+    width: 50%;
+    height:5rem ;
+    display: flex;
+    flex-direction: column;
+}
+.master3{
+    width: 30%;
+    height:5rem ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: small;
+}
+.master-img img{
+    height: 5rem;
+    width: 5rem;
+}
+.master-info{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem .5rem;
+    align-items: center;
+    justify-content: center;
+}
+.dilbar{
+    font-size: x-small;
+}
+.badshah-name{
+    color: grey;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+}
+.play-control1{
+    display: flex;
+    justify-content: space-around;
+    font-size:2rem;
+    margin:.5rem 8rem;
+}
+.play-control2{
+    display: flex;
+    font-size:2rem;
+    margin:.5rem 1.5rem;
+    height: 1rem;
+    width: 90%;
+    border: .1rem solid grey;
+    background-color: grey;
+    border-radius: .5rem;
+}
+.percent{
+    height: .8rem;
+    width: 40%;
+    border: .1rem solid grey;
+    background-color: green; 
+    border-radius: .5rem;
+}
+.percent-circle{
+    position: relative;
+    bottom:.4rem;
+    height: 1.7rem;
+    width: 1.7rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+.percent-sub{
+    height: .5rem;
+    width: 7rem;
+    background-color: grey;
+    border-radius:.5rem ;
+}
+.percent-circle2{
+    position: relative;
+    bottom:1rem;
+    left:2.5rem;
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+/* media */
+@media(max-width:1371px) and (min-width:600px){
+    .sub-menu-songs{
+        display: none;
+    }
+}
+
+@media(max-width:998px){
+    html{
+        font-size:55%;
+    }
+    main .menu-side{
+        height: 80vh;
+    }
+    .playlist{
+        height: 47rem;
+    }
+    .stations{
+        width:95%;
+        overflow-y: scroll;
+    }
+    .stations::-webkit-scrollbar{
+        display: none;
+    }
+    .latest-english{
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .latest-english::-webkit-scrollbar{
+        display: none;
+        
+    } 
+}
+@media(max-width:768px){
+    html{
+        font-size:45%;
+    }
+    main .menu-side{
+        height: 80vh;
+    }
+    .playlist{
+        height: 60rem;
+    }
+    .stations{
+        width:95%;
+        overflow-y: scroll;
+    }
+    .stations::-webkit-scrollbar{
+        display: none;
+    }
+    .latest-english{
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .latest-english::-webkit-scrollbar{
+        display: none;
+    } 
+}
+ @media(max-width:600px){
+    main .song-side{
+        width: 100vw;
+    }
+     .menu-side{
+       display: none;
+    }
+    .sub-menu-songs{
+        display: block;
+    }
+} 

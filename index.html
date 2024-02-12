@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>music-playlist</title>
+</head>
+
+<body>
+
+  <!-- navbar start -->
+
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/love-music.jpeg" height="40px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">ninja <h5>studio</h5></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Favourites</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>&&
+        <i class="fa-solid fa-bell fa-xl" style="color: #fdf7f7;"></i>&&
+        <img src="images/appu2.png" id="appu-image" height="50px" width="50px">
+      </div>
+    </div>
+  </nav>
+  <main>
+    <!-- song side -->
+
+
+    <section class="song-side">
+      <div id="carouselExample" class="carousel slide photo">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/dilbar.jpeg" class="d-block w-100 photo2" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/daspacito.png" class="d-block w-100 photo2" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/disigner.jpg" class="d-block w-100 photo2" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- sub menu side  -->
+      <div class="sub-menu-songs">
+        <div class="sub-menu-songs-header">
+          <span>
+            <h3>Queue</h3>
+          </span>
+          <span>
+            <ul class="queue2">
+              <li class="dropdown">
+                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="queue3">Queue</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Playlists</a></li>
+                  <li><a class="dropdown-item" href="#">Favourite songs</a></li>
+                </ul>
+              </li>
+            </ul>
+          </span>
+        </div>
+        <div class="sub-menu-songs-plalist">
+          <div class="sub-menu-songs-plalist1">
+            <div class="sub-menu-song1">
+              <span class="sub-no">01</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">02</span>
+              <div class="sub-img"><img src="images/english-song1.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">03</span>
+              <div class="sub-img"><img src="images/english-song3.jpeg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">04</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">05</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">06</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">07</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">08</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">09</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">10</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">11</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">12</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="sub-menu-songs-plalist1">
+            <div class="sub-menu-song1">
+              <span class="sub-no">13</span>
+              <div class="sub-img"><img src="images/english-song2.jpeg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">14</span>
+              <div class="sub-img"><img src="images/tum-hi-ho.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">15</span>
+              <div class="sub-img"><img src="images/disigner.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">16</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">17</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">18</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">19</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">20</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">21</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">22</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">23</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+            <div class="sub-menu-song1">
+              <span class="sub-no">24</span>
+              <div class="sub-img"><img src="images/love.jpg"></div>
+              <div class="sub-info">
+                <span class="sub-song-name">Ye Ladaki Pagal</span>
+                <span class="sub-badshah">Badshah</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- latest relesed -->
+
+      <div class="latest-relesed">
+        <div class="latest-relesed-heading">
+          <h3>Latest Relesed</h3>
+        </div>
+        <div class="latest-relesed-album">
+          <div class="latest-song">
+            <div class="song-image"><img src="images/daspacito.png"></div>
+            <div class="song-content">Dacpacito<p class="singer">13 dec 2023</p>
+            </div>
+            <div class="checkbox-list"><button class="btn btn-black dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="dropdown-icon">...</span> </button>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#"><i class="fa-sharp fa-solid fa-play"></i>play now</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-plus"></i>add to queue</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-folder-bookmark"></i>add to favourite</a>
+                </li>
+                <li><a class="dropdown-item" href="#"><i class="fa-sharp fa-regular fa-circle-info"></i>get info</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="latest-song">
+            <div class="song-image"><img src="images/she-move-it-like.jpeg"></div>
+            <div class="song-content">She Move It Like<p class="singer">13 dec 2023</p>
+            </div>
+            <div class="checkbox-list">
+              <button class="btn btn-black dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="dropdown-icon">...</span> </button>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#"><i class="fa-sharp fa-solid fa-play"></i>play now</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-plus"></i>add to queue</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-folder-bookmark"></i>add to favourite</a>
+                </li>
+                <li><a class="dropdown-item" href="#"><i class="fa-sharp fa-regular fa-circle-info"></i>get info</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="latest-song">
+            <div class="song-image"><img src="images/tera-sath-ho.jpg"></div>
+            <div class="song-content">Tera Sath Ho<p class="singer">13 dec 2023</p>
+            </div>
+            <div class="checkbox-list"><button class="btn btn-black dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="dropdown-icon">...</span> </button>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#"><i class="fa-sharp fa-solid fa-play"></i>play now</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-plus"></i>add to queue</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-folder-bookmark"></i>add to favourite</a>
+                </li>
+                <li><a class="dropdown-item" href="#"><i class="fa-sharp fa-regular fa-circle-info"></i>get info</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="latest-song">
+            <div class="song-image"><img src="images/tum-hi-ho.jpg"></div>
+            <div class="song-content">Tu Hi Ho<p class="singer">13 dec 2023</p>
+            </div>
+            <div class="checkbox-list"><button class="btn btn-black dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="dropdown-icon">...</span> </button>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#"><i class="fa-sharp fa-solid fa-play"></i>play now</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-plus"></i>add to queue</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-folder-bookmark"></i>add to favourite</a>
+                </li>
+                <li><a class="dropdown-item" href="#"><i class="fa-sharp fa-regular fa-circle-info"></i>get info</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- popular artist -->
+
+
+      <div class="popular-artist">
+        <div class="popular-artist-heading">
+          <h3>Popular Artist</h3>
+        </div>
+        <div class="popular-artist-list">
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo1"></div>
+            <div class="popular-artist-name">Badshah
+            </div>
+          </div>
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo2"></div>
+            <a href="index2.html">
+              <div class="play-button"><i class="fa-solid fa-play" style="color: #e5e7eb; font-size: x-large;"></i>
+              </div>
+            </a>
+            <div class="popular-artist-name">Shreya ghoshal
+            </div>
+          </div>
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo3"></div>
+            <div class="popular-artist-name">Arjit Singh
+            </div>
+          </div>
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo4"></div>
+            <div class="popular-artist-name">Dwani
+            </div>
+          </div>
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo5"></div>
+            <div class="popular-artist-name">Guru Randhva
+            </div>
+          </div>
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo6"></div>
+            <div class="popular-artist-name">Hardy Sandhu
+            </div>
+          </div>
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo7"></div>
+            <div class="popular-artist-name">Badshah
+            </div>
+          </div>
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo8"></div>
+            <div class="popular-artist-name">Badshah
+            </div>
+          </div>
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo9"></div>
+            <div class="popular-artist-name">Badshah
+            </div>
+          </div>
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo10"></div>
+            <div class="popular-artist-name">Badshah
+            </div>
+          </div>
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo1"></div>
+            <div class="popular-artist-name">Badshah
+            </div>
+          </div>
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo2"></div>
+            <div class="popular-artist-name">Badshah
+            </div>
+          </div>
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo3"></div>
+            <div class="popular-artist-name">Badshah
+            </div>
+          </div>
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo4"></div>
+            <div class="popular-artist-name">Badshah
+            </div>
+          </div>
+          <div class="popular-artist-profile">
+            <div class="popular-artist-image1 photo5"></div>
+            <div class="popular-artist-name">Badshah
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- stations -->
+
+      <div class="stations">
+        <div class="station-icon">
+          <div class="first-box">
+            <div class="second-box">
+              <div class="third-box"><i class="fa-solid fa-head-side-headphones music-icon" style="color: #06213c;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="station-goal">
+          <div class="stations-image"><img src="images/consert.jpeg"></div>
+          <div class="stations-image"><img src="images/background.png"></div>
+          <div class="stations-image"><img src="images/latino dance club.jpeg"></div>
+          <div class="stations-image"><img src="images/love.jpg"></div>
+          <div class="stations-image"><img src="images/music.jpg"></div>
+          <div class="stations-image"><img src="images/musicbeat.jpg"></div>
+          <div class="stations-image"><img src="images/web.webp"></div>
+          <div class="stations-image"><img src="images/pagal-bts.jpg"></div>
+        </div>
+      </div>
+
+      <!-- party-electronic-road trip -->
+
+      <div class="party-container">
+        <div class="party"><img src="images/party.jpg"></div>
+        <div class="electronic"><img src="images/electronic.jpeg"></div>
+        <div class="road-trip"><img src="images/road-trip2.jpg"></div>
+      </div>
+
+
+
+      <!-- latest english -->
+
+      <div class="latest-english">
+        <div class="latest-english-header">
+          <h3>Latest English</h3>
+        </div>
+        <div class="latest-english-album">
+          <div class="latest-english-song">
+            <div class="latest-english-image1">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+              </span>
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image2">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image3">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image4">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image5">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image6">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image1">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+              </span>
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image2">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image3">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- latest hindi -->
+
+      <div class="latest-english">
+        <div class="latest-english-header">
+          <h3>Latest Hindi</h3>
+        </div>
+        <div class="latest-english-album">
+          <div class="latest-english-song">
+            <div class="latest-english-image1">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+              </span>
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image2">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image3">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image4">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image5">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image6">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image1">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+              </span>
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image2">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+            </div>
+          </div>
+
+          <div class="latest-english-song">
+            <div class="latest-english-image3">
+            </div>
+            <div class="latest-english-name">Daspacito<span>
+                27 jan 2023
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- menu side -->
+
+
+    <section class="menu-side">
+      <div class="queue">
+        <span>
+          <h3>Queue</h3>
+        </span>
+        <span>
+          <ul class="queue2">
+            <li class="dropdown">
+              <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="queue3">Queue</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">Playlists</a></li>
+                <li><a class="dropdown-item" href="#">Favourite songs</a></li>
+              </ul>
+            </li>
+          </ul>
+        </span>
+      </div>
+      <div class="playlist">
+        <ul>
+          <li class="song1">
+            <span class="no">01</span>
+            <img src="images/love.jpg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Ye Ladki Pagal<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">02</span>
+            <img src="images/music.jpg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> She Move Like<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">03</span>
+            <img src="images/background.png" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Brekup Song<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">04</span>
+            <img src="images/web.webp" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Pasuri<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">05</span>
+            <img src="images/latino dance club.jpeg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Badtameez Dil<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">06</span>
+            <img src="images/english-song1.jpg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> DJ Wale Babu<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">07</span>
+            <img src="images/consert.jpeg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Dance Basanti<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">08</span>
+            <img src="images/musiclogo.png" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> High Heels Te Nachche<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">09</span>
+            <img src="images/love.jpg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Char Botal Vodka<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">10</span>
+            <img src="images/music.jpg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name">Main Tera Boyfriend<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">11</span>
+            <img src="images/consert.jpeg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Najaa<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">12</span>
+            <img src="images/background.png" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name">Bol Na Mahiye<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">13</span>
+            <img src="images/latino dance club.jpeg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name">Tere Vaaste<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">14</span>
+            <img src="images/english-song2.jpeg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Litttle Little<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">15</span>
+            <img src="images/resumebackground.webp" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name">Baby Tujhe Paap Lage Ga<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">16</span>
+            <img src="images/love.jpg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Bahara<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+          <li class="song1">
+            <span class="no">17</span>
+            <img src="images/consert.jpeg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Tum Mile Dil Khile<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">18</span>
+            <img src="images/background.png" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Shayad<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">19</span>
+            <img src="images/latino dance club.jpeg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Kusu Kusu<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">20</span>
+            <img src="images/resumebackground.webp" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Besharam Rang<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">21</span>
+            <img src="images/web.webp" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Lat Lag Gayi<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">22</span>
+            <img src="images/music.jpg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Bad Boy<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">23</span>
+            <img src="images/resumebackground.webp" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Designer<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">24</span>
+            <img src="images/love.jpg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name">Tera Sath Ho<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+
+          <li class="song1">
+            <span class="no">25</span>
+            <img src="images/consert.jpeg" alt="love song" height="28px" width="28px" class="shadow">
+            <h5 class="song-name"> Dance Meri Rani<br>
+              <div class="badsha">badsha</div>
+            </h5>
+            <i class="fa-regular fa-heart" style="color: #c3ccda;"></i>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </section>
+    <!-- master side -->
+    <section class="master-side">
+      <div class="master1">
+        <div class="master-img"><img src="images/dilbar.jpeg"></div>
+        <div class="master-info">
+          <span class="dilbar">Dilbar...</span>
+          <span class="badshah-name">badshah</span>
+        </div>
+        <div class="icons">
+          <div><i class="fa-regular fa-heart shape" style="color: #c3ccda;"></i></div>
+          <div><i class="fa-solid fa-empty-set"></i></div>
+        </div>
+      </div>
+
+
+      <div class="master2">
+        <div class="play-control1">
+          <i class="fa-solid fa-shuffle" style="color: #e6edf9;"></i>
+          <i class="fa-solid fa-backward-step"></i>
+          <i class="fa-sharp fa-solid fa-circle-pause"></i>
+          <i class="fa-solid fa-forward-step"></i>
+          <i class="fa-solid fa-repeat"></i>
+        </div>
+        <div class="play-control2">
+          <div class="percent"></div>
+          <div class="percent-circle"></div>
+        </div>
+      </div>
+      <div class="master3">
+        <i class="fa-solid fa-sliders"></i>
+        <i class="fa-sharp fa-regular fa-share-from-square"></i>
+        <i class="fa-solid fa-volume-high"></i>
+        <div class="percent-sub">
+          <div class="percent"></div>
+          <div class="percent-circle2"></div>
+        </div>
+        <i class="fa-regular fa-maximize"></i>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

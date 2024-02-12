@@ -1,0 +1,499 @@
+body{
+    background-color: rgb(6, 2, 43);
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html{
+    font-size: 62.5%;
+}
+#appu-image{
+    border-radius: 50%;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+.shreya-album{
+    height: 76vh;
+    width: 69vw;
+    margin-left: 3rem; 
+    box-sizing: border-box;
+}
+.similar-artist-played{
+    height: 76vh;
+    width: 22vw;
+    box-sizing: border-box;
+    background-color: rgb(6, 2, 43);
+    margin: .3rem;
+    color: white;
+}
+.master-play{
+    height: 11vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: rgb(34, 29, 29);
+    display: flex;
+    color:lightgray;
+}
+.cold-play{
+        height: 45%;
+        width: 98%;
+        box-sizing: border-box;
+        display: flex;
+        margin: .7rem;
+        background-color:rgb(14, 7, 78);
+}
+.shreya-image{
+    height: 100%;
+        width: 40%;
+        box-sizing: border-box;
+}
+.shreya-image img{
+    height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+}
+.shreya-profile{
+    height: 100%;
+        width: 60%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 1.5rem;
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+.coldplay-text{
+    display: flex;
+    flex-direction: row;
+}
+.shreya-ghoshal-name{
+    margin-top:1.5rem;
+    font-size: xx-small;
+    color:lightgray;
+}
+.followers{ 
+    position: relative;
+    left:50%;
+    font-size: xx-small;
+    color:lightgray;
+}
+
+.shreya-info{
+    height: 10rem;
+    width:100%;
+}
+.follow-button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.followers-color{
+    height: 3rem;
+    background-image:linear-gradient(to right,blue, purple);
+    color: white;
+    font-size: x-small;
+    display: flex;
+    flex-direction: column;
+}
+.area{
+    position: relative;
+    top:1rem;
+    left:3rem;
+}
+
+/* tracks */
+
+.track-container{
+        height: 30rem;
+        width: 98%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        margin: .7rem;
+        background-color:rgb(14, 7, 78);
+        color:lightgray;
+        font-size: x-small;
+        overflow-y:scroll;
+}
+.track-container::-webkit-scrollbar{
+    display: none;
+}
+.main-songs{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    width: 100%;
+    margin: .2rem 0rem;
+    align-items: center;
+    background-color: rgb(47, 47, 75);
+}
+.song1{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    width: 85%;
+    margin: .2rem 0rem;
+    align-items: center;
+    background-color: rgb(47, 47, 75);
+}
+.no-space{
+    margin: 0rem .5rem;
+    font-size: x-small;
+}
+.song-photo{
+    height:3rem ;
+    width: 3rem;
+    margin: .3rem;
+}
+.song-photo img{
+    height:100%;
+    width: 100%;
+    box-shadow: 0rem 0rem .7rem .3rem rgb(104, 117, 117);
+}
+.song-photo-name{
+    display: flex;
+    flex-direction: column;
+}
+.main-name{
+    font-weight: 900;
+    margin-left: 1rem;
+}
+.sub-name{
+    margin-left: 1rem;
+    font-size: xx-small;
+}
+.heart-plus{
+    display: flex;
+    flex-direction: row;
+}
+.shape{
+    margin: 0rem 5rem;
+}
+.variation1{
+    height: 1rem;
+    width:.3rem;
+    background-color: blue;
+    margin: 0rem .1rem;
+    animation: changeshape .3s ease-in-out infinite;
+}
+.variation2{
+    height: 1.5rem;
+    width:.3rem;
+    background-color: blue;
+    margin: 0rem .1rem;
+    animation: changeshape .3s ease-in-out infinite 0.3;
+}
+.variation3{
+    height: .8rem;
+    width:.3rem;
+    background-color: blue;
+    margin: 0rem .1rem;
+    animation: changeshape .3s ease-in-out infinite 0.6;
+}
+.no1-space{
+    margin: 0rem .5rem;
+    display: flex;
+    align-items: baseline;
+}
+.main-songs2{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    width: 100%;
+    margin: .2rem 0rem;
+    align-items: center;
+    background-color: rgb(85, 85, 104);
+}
+.song2{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    width: 85%;
+    margin: .2rem 0rem;
+    align-items: center;
+    background-color:rgb(85, 85, 104);
+}
+
+/* similar-artist-played */
+
+
+.similar-artist-list{
+    height: 50%;
+    margin-left: 1rem;
+}
+.similar-artist-heading{
+    display: flex;
+    width:100%;
+    height:25%
+}
+.similar-artist-heading h5{
+    width:85%;
+    margin-top: .5rem;
+}
+.views{
+    font-size: xx-small;
+    color: lightgray;
+}
+.artist-list{
+    display: flex;
+    flex-direction: column;
+    height:75%;
+    width: inherit;
+    margin-top: .5rem;
+}
+.artist-list1{
+    display: flex;
+    height:4.5rem;
+    width: inherit;
+    margin-bottom: .5rem;
+    align-items: center;
+}
+.similar-artist-pic{
+    height:4rem ;
+    width: 4rem;
+}
+.similar-artist-pic img{
+    height:4rem ;
+    width: 4rem;
+}
+.similar-artist-info{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    height: inherit;
+    width:70% ;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.similar-artist-info span{
+    font-size: xx-small;
+    color: lightgray;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    font-size: xx-small;
+    color: lightgray;
+}
+
+/* latest played */
+
+.latest-played{
+    height: 50%;
+    width: 94%;
+    margin-left:1rem ;
+}
+.latest-played-heading{
+    display: flex;
+    width:100%;
+    height:25%;
+}
+.latest-played-heading h4{
+    width:100%;
+}
+.latest-played-heading div h5{
+    flex-grow: 3;
+    margin-top: .5rem;
+}
+.latest-played-heading .views{
+    flex-grow: 1;
+    margin-top: .5rem;
+}
+.latest-played-list{
+    display: flex;
+    flex-direction: column;
+    height:99%;
+    width:100%;
+    margin-top: .5rem;
+    overflow-y: scroll;
+}
+.latest-played-list::-webkit-scrollbar{
+    display: none;
+}
+.latest-played-song{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    margin: .5rem 0rem;
+}
+.latest-played-pic{
+    height:4.5rem;
+    width:4.5rem;
+}
+.latest-played-pic img{
+    height:4.5rem;
+    width:4.5rem;
+}
+.latest-played-info{
+    height: 4.5rem;
+    width: auto;
+    margin-left: 1rem;
+}
+.latest-played-info span{
+    font-size: xx-small;
+    color: lightgray;
+}
+/* master play */
+
+.master-side{
+    height:5rem;
+    width: 100%;
+    background-color: rgb(49, 45, 45);
+    display: flex;
+    color: aliceblue;
+}
+.master1{
+    width: 20%;
+    height:5rem ;
+    display: flex;
+    margin-left: 3rem;
+}
+.master2{
+    width: 50%;
+    height:5rem ;
+    display: flex;
+    flex-direction: column;
+}
+.master3{
+    width: 30%;
+    height:5rem ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: small;
+}
+.master-img img{
+    height: 5rem;
+    width: 5rem;
+}
+.master-info{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem .5rem;
+    align-items: center;
+    justify-content: center;
+}
+.dilbar{
+    font-size: x-small;
+}
+.badshah-name{
+    color: grey;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+}
+.play-control1{
+    display: flex;
+    justify-content: space-around;
+    font-size:2rem;
+    margin:.5rem 8rem;
+}
+.play-control2{
+    display: flex;
+    font-size:2rem;
+    margin:.5rem 1.5rem;
+    height: 1rem;
+    width: 90%;
+    border: .1rem solid grey;
+    background-color: grey;
+    border-radius: .5rem;
+}
+.percent{
+    height: .8rem;
+    width: 40%;
+    border: .1rem solid grey;
+    background-color: green; 
+    border-radius: .5rem;
+}
+.percent-circle{
+    position: relative;
+    bottom:.4rem;
+    height: 1.7rem;
+    width: 1.7rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+.percent-sub{
+    height: .5rem;
+    width: 7rem;
+    background-color: grey;
+    border-radius:.5rem ;
+}
+.percent-circle2{
+    position: relative;
+    bottom:1rem;
+    left:2.5rem;
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+/* media */
+@media(max-width:1371px) and (min-width:600px){
+    .sub-menu-songs{
+        display: none;
+    }
+}
+
+@media(max-width:998px){
+    html{
+        font-size:55%;
+    }
+    main .menu-side{
+        height: 80vh;
+    }
+    .playlist{
+        height: 47rem;
+    }
+    .stations{
+        width:95%;
+        overflow-y: scroll;
+    }
+    .stations::-webkit-scrollbar{
+        display: none;
+    }
+    .latest-english{
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .latest-english::-webkit-scrollbar{
+        display: none;
+        
+    } 
+}
+
+
+
+/* media*/
+
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+    .latest-played-list{
+        height:83%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+    .track-container{
+        height: 38rem;
+    }
+}
+@media(max-width:600px){
+
+}
+
+
+
